@@ -42,6 +42,9 @@ class Contributor(models.Model):
     def __str__(self) -> str:
         return self.first_names
 
+    def sth():
+        pass
+
 
 class BookContributor(models.Model):
     class ContributionRole(models.TextChoices):
